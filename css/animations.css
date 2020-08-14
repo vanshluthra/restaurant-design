@@ -1,0 +1,40 @@
+.slide-0-forward { animation-name: slide-0-forward; }
+.slide-1-forward { animation-name: slide-1-forward; }
+.slide-2-forward { animation-name: slide-2-forward; }
+
+.slide-0-reverse { animation-name: slide-0-reverse; }
+.slide-1-reverse { animation-name: slide-1-reverse; }
+.slide-2-reverse { animation-name: slide-2-reverse; }
+
+
+@keyframes slide-0-forward {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-33.3333%); }
+}
+
+@keyframes slide-1-forward {
+    0% { transform: translateX(-33.3333%); }
+    100% { transform: translateX(-66.6666%); }
+}
+
+@keyframes slide-2-forward {
+    0% { transform: translateX(-66.6666%); }
+    100% { transform: translateX(0%); }
+}
+
+
+@keyframes slide-0-reverse {
+    0% { transform: translateX(-33.3333%); }
+    100% { transform: translateX(0%); }
+}
+
+@keyframes slide-1-reverse {
+    0% { transform: translateX(-66.6666%); }
+    100% { transform: translateX(-33.3333%); }
+}
+
+@keyframes slide-2-reverse {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-66.6666%); }
+}
+
